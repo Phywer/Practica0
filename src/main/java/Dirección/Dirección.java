@@ -8,12 +8,11 @@ public class Dirección {
     private String dirección;
 
 
-    public Dirección(int códigoPostal, String provincia, String población, String dirección) {
+    public Dirección(int códigoPostal, String provincia, String población) {
 
         this.códigoPostal = códigoPostal;
         this.provincia = provincia;
         this.población = población;
-        this.dirección = dirección;
 
     }
 

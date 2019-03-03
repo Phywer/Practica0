@@ -1,15 +1,15 @@
 package ListaLlamadas;
 
+import Cliente.*;
 import Llamada.Llamada;
-
-import java.time.LocalDate;
-import java.util.ArrayList;
 
 public class ListaLlamadas {
 
-    public ArrayList<Llamada> ListaLlamadasFactura(){
+    Cliente cliente= new Particular();
 
-
+    public void AñadirLlamada(double numLlamada, int minsDuracion) {
+        Llamada llamada = new Llamada(numLlamada, minsDuracion);
+        cliente.addLlamadas(llamada);
 
     }
 

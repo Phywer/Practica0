@@ -9,7 +9,7 @@ public class Llamada {
     private int minsDuracion;
 
 
-    public Llamada(double numLlamada, int minsDuracion){
+    public Llamada(double numLlamada, int minsDuracion) {
 
         this.fecha = LocalDate.now();
         this.numLlamada = numLlamada;

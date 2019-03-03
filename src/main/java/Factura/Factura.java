@@ -22,4 +22,8 @@ public class Factura {
 
     }
 
+    public String getCódigoFactura() {
+        return códigoFactura;
+    }
+
 }
